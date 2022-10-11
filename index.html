@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reactive Profile</title>
+
+</head>
+<body>
+    <div class="processor">
+        <div align="center" class="mouse">My Profile's Annisa!</div>
+        <div class="keyboard">
+            <img src="formal.jpg" alt="foto saya">
+
+            <h2 align="center" class="nama">Annisa Saninah</h2>
+            <p align="center" class="nama">Welcome to My Profile:)</p>
+
+            <p align="center">Hai, perkenalkan, nama saya Annisa Saninah, Biasa dipanggil Annisa, Nisa, Nina, Ica atau Anis</p>
+            <p align="center">Asal saya dari Cirebon, Provinsi Jawa Barat</p>  
+            <p align="center">Saya menempuh jenjang perkuliahan di STMIK IKMI CIREBON dan mengambil prodi Teknik Informatika</p>
+            <p align="center">Saya berasal dari kelas TI-2021-KIP-P3, NIM : 41215509, No. Absent : 05</p>
+            <p align="center">Salam kenal semuanyaaa....</p>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".mouse").click(function(){
+                $(".keyboard").slideToggle("slow");
+            });
+        });
+    </script>
+    
+</body>
+</html>
